@@ -15,6 +15,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/students/:studentId" element={<StudentDetailsPage />} />
           <Route path="/profile" element={<UserProfilePage />} />
+          <Route path="*" element={<h1 className="mt-20">404 Not Found</h1>} />
         </Routes>
       </div>
     </div>
